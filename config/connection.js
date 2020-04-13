@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 
 const connection = async () => {
   const client = new MongoClient(
-    "mongodb+srv://root:root@rubencluster-eroht.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "HiddenUri", // here I insert my mongodb uri, hidden for security reasons
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
