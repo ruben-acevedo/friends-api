@@ -7,18 +7,6 @@ https://acevedo-friendsapi.herokuapp.com/api/episodes
 - Endpoint: /episode/:season/:episode
 - Method: GET
 
-### Body: 
-
-```
-{
-    "_id": id,
-    "season": int,
-    "episode": int,
-    "name": string,
-    "year": int
-}
-```
-
 ### Example:
 
 https://acevedo-friendsapi.herokuapp.com/api/episodes/episode/10/5
